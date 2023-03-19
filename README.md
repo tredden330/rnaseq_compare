@@ -9,4 +9,5 @@ SRAtoolkit -> FASTQC -> trimgalore -> FASTQC -> STAR -> repeat for next sample
 ## Instructions
 1. download accession values from rna-seq of interest from [SRA](this)
     - download: send to -> file -> summary
-2. move file into same directory as 
+2. move file into same directory as fetch_data.sh
+    - ensure SRAtoolkit, FASTQC, STAR, and trimgalore are installed and available
